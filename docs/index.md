@@ -10,4 +10,7 @@ hero:
     - theme: brand
       text: Word 图片压缩
       link: /word/image-compression
+    - theme: alt
+      text: Word VBA 调整样式
+      link: /word/vba/adjust-style
 ---
