@@ -7,6 +7,9 @@ export default defineConfig({
     description: "文档写作的效能手册",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        nav: [
+            {text: 'Word', link: '/word/image-compression'}
+        ],
         socialLinks: [
             {icon: 'github', link: 'https://github.com/lingkai5wu/GoodJob'}
         ]
