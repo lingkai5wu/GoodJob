@@ -3,3 +3,4 @@
 /docs/.vitepress/cache/
 
 /pnpm-lock.yaml
+/pnpm-workspace.yaml
