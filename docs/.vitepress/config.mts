@@ -31,4 +31,7 @@ export default defineConfig({
             }),
         ],
     },
+    head: [
+        ['link', {rel: 'icon', type: 'image/svg', href: '/DesktopArrowRight16Regular.svg'}]
+    ]
 })
