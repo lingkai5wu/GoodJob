@@ -1,7 +1,10 @@
 import DefaultTheme from 'vitepress/theme'
 import {injectSpeedInsights} from '@vercel/speed-insights'
+import {inject} from "@vercel/analytics"
 
-// 在页面中注入性能监控脚本
+// 流量分析
+inject()
+// 性能监控
 injectSpeedInsights()
 
 export default DefaultTheme
